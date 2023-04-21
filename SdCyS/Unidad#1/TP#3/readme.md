@@ -114,7 +114,9 @@ plt.title('Respuesta en fase')
 plt.grid(True)
 plt.show()
 
-```![descarga (4a)](https://user-images.githubusercontent.com/46485082/233715058-008859e0-5eab-4808-891f-2c68bf2221ff.png)
+```
+
+![descarga (4a)](https://user-images.githubusercontent.com/46485082/233715058-008859e0-5eab-4808-891f-2c68bf2221ff.png)
 
 
 ![descarga (4b)](https://user-images.githubusercontent.com/46485082/233715092-54d85e05-1bed-4d00-95d4-1ca3f8e171e0.png)
