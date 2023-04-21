@@ -1,3 +1,12 @@
+# $\textcolor{red}{Trabajo\ Practico\ 3: Objetivos}$
+
+- [ ] Comprender los conceptos de sistema dinámico, lazo abierto y lazo cerrado.
+- [ ] Analizar las ventajas y desventajas de los sistemas de control dinámico.
+- [ ] Conocer los sistemas de control estáticos y su comparación con los dinámicos.
+- [ ] Familiarizarse con los sistemas lineales invariantes en el tiempo y sus propiedades matemáticas.
+- [ ] Comprender cómo estas propiedades permiten una mejor comprensión y control de los sistemas. 
+
+
 # $\textcolor{blue}{Cuestionario:}$
 
 
