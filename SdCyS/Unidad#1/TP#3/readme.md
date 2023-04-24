@@ -127,5 +127,34 @@ plt.show()
 - [ ] (5)  Crear un programa en Python utilizando la biblioteca control para diseñar y analizar un controlador proporcional, integral y derivativo (PID) para 
 un sistema lineal invariante en el tiempo.
 
+```python
+import control
+import numpy as np
+import matplotlib.pyplot as plt
 
+# Función de transferencia del sistema
+num = [1]
+den = [1, 1, 1]
+G = control.tf(num, den)
+
+# Diseño del controlador PID
+Kp = 1
+Ki = 1
+Kd = 1
+C = control.pid(Kp, Ki, Kd)
+
+# Combinación del sistema con el controlador PID
+H = control.feedback(C*G, 1)
+
+# Análisis del sistema controlado
+t, y = control.step_response(H)
+
+# Gráfica de la respuesta del sistema
+plt.plot(t, y)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Salida')
+plt.title('Respuesta del sistema controlado')
+plt.grid()
+plt.show()
+```
  
